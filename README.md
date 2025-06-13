@@ -1,6 +1,7 @@
 # cnlp1
 
 Projektstruktur & Hinweise
+
 outputs/
 Enthält diverse .csv-Dateien, die aus den Codeausführungen entstanden sind. Diese dienen vor allem der Nachvollziehbarkeit, sind aber nicht zwingend für das Verständnis nötig, da die zentralen Erkenntnisse visuell im Miro-Board zusammengefasst wurden.
 
