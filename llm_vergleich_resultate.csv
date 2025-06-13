@@ -1,0 +1,614 @@
+ProductId,Prompt,output_gpt-4,output_claude-3-opus,output_llama-3-70b,output_mistral-7b
+200440,"
+Bitte extrahiere die wichtigsten technischen Produktspezifikationen aus folgendem Text und gib sie als JSON mit sinnvollen Attributnamen zurück.
+
+Produktdaten:
+Anschluss A: 1x Cinch
+Anschluss B: 1x Cinch
+Anwendungsbereich: Consumer / Hi-Fi
+Art: Kabel
+Audio Kabeltyp: Cinch
+Datenübertragung: Digital
+Genaue Materialbezeichnung: Kupfer
+Innenleiter Material: Kupfer
+Kabel Anwendung: Digital-audio
+Kabel Bauform: sauerstofffreies Kupfer
+Kabel Verbindung: Anschluss (M/M)
+Kabelfarbe: Blau
+Länge: 3 Meter (m) Meter
+Menge pro Packung: 1 Stück (Stk.) Stück
+Steckerform: Vergoldete Kontakte
+Steckerform: Gerade
+Tiefe: 3 Meter (m) Meter
+","{
+""Anschluss_A"": ""1x Cinch"",
+""Anschluss_B"": ""1x Cinch"",
+""Anwendungsbereich"": ""Consumer / Hi-Fi"",
+""Art"": ""Kabel"",
+""Audio_Kabeltyp"": ""Cinch"",
+""Datenübertragung"": ""Digital"",
+""Genaue_Materialbezeichnung"": ""Kupfer"",
+""Innenleiter_Material"": ""Kupfer"",
+""Kabel_Anwendung"": ""Digital-audio"",
+""Kabel_Bauform"": ""sauerstofffreies Kupfer"",
+""Kabel_Verbindung"": ""Anschluss (M/M)"",
+""Kabelfarbe"": ""Blau"",
+""Länge"": ""3 Meter"",
+""Menge_pro_Packung"": ""1 Stück"",
+""Steckerform"": [""Vergoldete Kontakte"", ""Gerade""],
+""Tiefe"": ""3 Meter""
+}","{
+  ""AnschlussA"": ""1x Cinch"",
+  ""AnschlussB"": ""1x Cinch"",
+  ""Anwendungsbereich"": ""Consumer / Hi-Fi"",
+  ""Art"": ""Kabel"",
+  ""AudioKabeltyp"": ""Cinch"",
+  ""Datenübertragung"": ""Digital"",
+  ""InnenleiterMaterial"": ""Kupfer"",
+  ""KabelAnwendung"": ""Digital-audio"",
+  ""KabelBauform"": ""sauerstofffreies Kupfer"",
+  ""KabelVerbindung"": ""Anschluss (M/M)"",
+  ""Kabelfarbe"": ""Blau"",
+  ""Länge"": ""3 Meter (m)"",
+  ""MengeProPackung"": ""1 Stück (Stk.)"",
+  ""Steckerform"": [
+    ""Vergoldete Kontakte"",
+    ""Gerade""
+  ]
+}","Hier sind die wichtigsten technischen Produktspezifikationen als JSON-Objekt:
+
+```json
+{
+  ""anschluss"": {
+    ""typ"": ""Cinch"",
+    ""anzahl"": 2,
+    ""geschlecht"": ""M/M""
+  },
+  ""kabel"": {
+    ""typ"": ""Digital-audio"",
+    ""material"": ""Kupfer"",
+    ""bauform"": ""sauerstofffreies Kupfer"",
+    ""laenge"": 3,
+    ""farbe"": ""Blau""
+  },
+  ""stecker"": {
+    ""form"": ""Gerade"",
+    ""kontakte"": ""Vergoldete Kontakte""
+  },
+  ""allgemein"": {
+    ""anwendungsbereich"": ""Consumer / Hi-Fi"",
+    ""art"": ""Kabel"",
+    ""datenuebertragung"": ""Digital"",
+    ""mengeProPackung"": 1
+  }
+}
+```
+
+Hinweis: Ich habe einige Attribute umbenannt oder zusammengefasst, um sie besser lesbar und verständlich zu machen. Die Attribute `Tiefe` wurde ignoriert, da es sich wahrscheinlich um einen Fehler handelt, da die Tiefe eines Kabels normalerweise nicht relevant ist. Stattdessen wurde die Länge des Kabels als `laenge` im `kabel`-Objekt aufgenommen."," {
+  ""product"": {
+    ""connection_a"": ""1x Cinch"",
+    ""connection_b"": ""1x Cinch"",
+    ""application_field"": ""Consumer / Hi-Fi"",
+    ""type"": ""Cable"",
+    ""cable_type"": ""Cinch"",
+    ""data_transmission"": ""Digital"",
+    ""material_name"": ""Copper"",
+    ""inner_wire_material"": ""Copper"",
+    ""cable_usage"": ""Digital-audio"",
+    ""cable_construction"": ""Oxygen-free Copper"",
+    ""cable_connection"": ""Anschluss (M/M)"",
+    ""color"": ""Blau"",
+    ""length"": ""3 Meter"",
+    ""quantity_per_packaging"": ""1 Stück"",
+    ""connector_shape"": [""Vergoldete Kontakte"", ""Gerade""],
+    ""thickness"": ""3 Meter""
+  }
+}"
+203240,"
+Bitte extrahiere die wichtigsten technischen Produktspezifikationen aus folgendem Text und gib sie als JSON mit sinnvollen Attributnamen zurück.
+
+Produktdaten:
+Artikel pro Verkaufseinheit: 2 Stück (Stk.) Stück
+Druckerserie: DesignJet
+Druckfarbe: Magenta
+Druckfarbe: Cyan
+Farbbezeichnung: C
+Farbbezeichnung: M
+Herstellerengagement: SBTi
+Herstellerengagement: RE100
+Inhalt: 130 Milliliter (ml) Milliliter
+Kompatibel zu OEM: C9383A
+Kompatible Druckermodelle: T1100
+Kompatible Druckermodelle: T1100PS
+Kompatible Druckermodelle: T1200
+Passende Druckermarke: HP
+Patronenart: Originalprodukt
+Patronengrösse: Normal
+Patronentyp: Druckkopf
+Ursprungsland: Singapur
+","{
+  ""ArtikelProVerkaufseinheit"": ""2 Stück"",
+  ""Druckerserie"": ""DesignJet"",
+  ""Druckfarben"": [""Magenta"", ""Cyan""],
+  ""Farbbezeichnungen"": [""C"", ""M""],
+  ""Herstellerengagements"": [""SBTi"", ""RE100""],
+  ""Inhalt"": ""130 Milliliter"",
+  ""KompatibelZuOEM"": ""C9383A"",
+  ""KompatibleDruckermodelle"": [""T1100"", ""T1100PS"", ""T1200""],
+  ""PassendeDruckermarke"": ""HP"",
+  ""Patronenart"": ""Originalprodukt"",
+  ""Patronengrösse"": ""Normal"",
+  ""Patronentyp"": ""Druckkopf"",
+  ""Ursprungsland"": ""Singapur""
+}","{
+  ""artikelProVerkaufseinheit"": 2,
+  ""artikeleinheit"": ""Stück"",
+  ""druckerserie"": ""DesignJet"",
+  ""druckfarben"": [
+    ""Magenta"",
+    ""Cyan""
+  ],
+  ""farbbezeichnungen"": [
+    ""C"",
+    ""M""
+  ],
+  ""herstellerengagements"": [
+    ""SBTi"",
+    ""RE100""
+  ],
+  ""inhalt"": 130,
+  ""inhaltseinheit"": ""Milliliter"",
+  ""kompatibilitaet"": {
+    ""oem"": ""C9383A"",
+    ""druckermodelle"": [
+      ""T1100"",
+      ""T1100PS"",
+      ""T1200""
+    ],
+    ""druckermarke"": ""HP""
+  },
+  ""patronenart"": ""Originalprodukt"",
+  ""patronengroesse"": ""Normal"",
+  ""patronentyp"": ""Druckkopf"",
+  ""ursprungsland"": ""Singapur""
+}","Hier sind die wichtigsten technischen Produktspezifikationen als JSON mit sinnvollen Attributnamen:
+
+```json
+{
+  ""artikelProVerkaufseinheit"": 2,
+  ""druckfarbe"": [""Magenta"", ""Cyan""],
+  ""farbbezeichnung"": [""C"", ""M""],
+  ""inhalt"": 130,
+  ""inhaltEinheit"": ""ml"",
+  ""kompatibelZuOEM"": ""C9383A"",
+  ""kompatibleDruckermodelle"": [""T1100"", ""T1100PS"", ""T1200""],
+  ""druckermarke"": ""HP"",
+  ""patronenart"": ""Originalprodukt"",
+  ""patronengroesse"": ""Normal"",
+  ""patronentyp"": ""Druckkopf"",
+  ""ursprungsland"": ""Singapur"",
+  ""druckerserie"": ""DesignJet""
+}
+```
+
+Hinweis: Ich habe einige Attribute umbenannt, um sie besser lesbar und verständlich zu machen. Die `druckfarbe` und `farbbezeichnung` Attribute sind zu Arrays umgewandelt worden, da es mehrere Werte gibt. Die `inhalt` und `inhaltEinheit` Attribute sind getrennt, um eine bessere Lesbarkeit zu ermöglichen."," {
+  ""product_unit_per_sale"": 2,
+  ""printer_series"": ""DesignJet"",
+  ""colors"": {
+    ""Cyan"": true,
+    ""Magenta"": true
+  },
+  ""manufacturer_commitments"": [
+    ""SBTi"",
+    ""RE100""
+  ],
+  ""capacity"": {
+    ""volume"": 130,
+    ""unit"": ""Milliliter""
+  },
+  ""compatible_with_OEM"": ""C9383A"",
+  ""compatible_models"": [
+    ""T1100"",
+    ""T1100PS"",
+    ""T1200""
+  ],
+  ""manufacturer"": ""HP"",
+  ""product_type"": ""Originalproduct"",
+  ""size_type"": ""Normal"",
+  ""type"": ""Druckkopf"",
+  ""origin_country"": ""Singapur""
+}"
+204460,"
+Bitte extrahiere die wichtigsten technischen Produktspezifikationen aus folgendem Text und gib sie als JSON mit sinnvollen Attributnamen zurück.
+
+Produktdaten:
+American Wire Gauge (AWG): 26
+Anschluss A: RJ45
+Anschluss B: RJ45
+Artikel pro Verkaufseinheit: 1 Stück (Stück) Stück
+Breite: 150 Millimeter (mm) Millimeter
+Genaue Materialbezeichnung: Polyvinylchlorid (PVC)
+Gewicht: 83.5 Gramm (g) Gramm
+Impedanz: 100 Ohm
+Kabel Anwendung: Netzwerk
+Kabel Bauform: 100 Ohm
+Kabel Kategorie: CAT6
+Kabel Verbindung: Anschluss (M/M)
+Kabelfarbe: Blau
+Kontaktbelegung: ungekreuzt (straight)
+Lieferumfang: 1
+Länge: 2 Meter (m) Meter
+Material Isolation: Polyvinylchlorid
+Patchkabel Merkmale: Halogenfrei
+Patchkabeltyp: Kupferkabel
+Schirmung: S/FTP
+Steckerform: Vergoldete Kontakte
+Ursprungsland: China
+","{
+  ""American_Wire_Gauge_AWG"": 26,
+  ""Anschluss_A"": ""RJ45"",
+  ""Anschluss_B"": ""RJ45"",
+  ""Artikel_pro_Verkaufseinheit"": ""1 Stück"",
+  ""Breite"": ""150 Millimeter"",
+  ""Materialbezeichnung"": ""Polyvinylchlorid (PVC)"",
+  ""Gewicht"": ""83.5 Gramm"",
+  ""Impedanz"": ""100 Ohm"",
+  ""Kabel_Anwendung"": ""Netzwerk"",
+  ""Kabel_Bauform"": ""100 Ohm"",
+  ""Kabel_Kategorie"": ""CAT6"",
+  ""Kabel_Verbindung"": ""Anschluss (M/M)"",
+  ""Kabelfarbe"": ""Blau"",
+  ""Kontaktbelegung"": ""ungekreuzt (straight)"",
+  ""Lieferumfang"": 1,
+  ""Länge"": ""2 Meter"",
+  ""Material_Isolation"": ""Polyvinylchlorid"",
+  ""Patchkabel_Merkmale"": ""Halogenfrei"",
+  ""Patchkabeltyp"": ""Kupferkabel"",
+  ""Schirmung"": ""S/FTP"",
+  ""Steckerform"": ""Vergoldete Kontakte"",
+  ""Ursprungsland"": ""China""
+}","{
+  ""awg"": 26,
+  ""anschlussA"": ""RJ45"",
+  ""anschlussB"": ""RJ45"",
+  ""stueckProVerkaufseinheit"": 1,
+  ""breite"": 150,
+  ""breiteEinheit"": ""mm"",
+  ""material"": ""Polyvinylchlorid (PVC)"",
+  ""gewicht"": 83.5,
+  ""gewichtEinheit"": ""g"",
+  ""impedanz"": 100,
+  ""impedanzEinheit"": ""Ohm"",
+  ""anwendung"": ""Netzwerk"",
+  ""bauform"": ""100 Ohm"",
+  ""kategorie"": ""CAT6"",
+  ""verbindung"": ""Anschluss (M/M)"",
+  ""farbe"": ""Blau"",
+  ""kontaktbelegung"": ""ungekreuzt (straight)"",
+  ""lieferumfang"": 1,
+  ""laenge"": 2,
+  ""laengeEinheit"": ""m"",
+  ""isolation"": ""Polyvinylchlorid"",
+  ""merkmale"": ""Halogenfrei"",
+  ""typ"": ""Kupferkabel"",
+  ""schirmung"": ""S/FTP"",
+  ""steckerform"": ""Vergoldete Kontakte"",
+  ""ursprungsland"": ""China""
+}","Hier sind die wichtigsten technischen Produktspezifikationen als JSON mit sinnvollen Attributnamen:
+
+```json
+{
+  ""kabelEigenschaften"": {
+    ""kategorie"": ""CAT6"",
+    ""bauform"": ""100 Ohm"",
+    ""anwendung"": ""Netzwerk"",
+    ""verbindung"": ""Anschluss (M/M)"",
+    ""schirmung"": ""S/FTP"",
+    ""impedanz"": 100,
+    ""kontaktbelegung"": ""ungekreuzt (straight)""
+  },
+  ""physischeEigenschaften"": {
+    ""laenge"": 2,
+    ""breite"": 150,
+    ""gewicht"": 83.5,
+    ""material"": ""Polyvinylchlorid (PVC)"",
+    ""kabelfarbe"": ""Blau""
+  },
+  ""anschlussEigenschaften"": {
+    ""anschlussA"": ""RJ45"",
+    ""anschlussB"": ""RJ45"",
+    ""steckerform"": ""Vergoldete Kontakte""
+  },
+  ""sonstigeEigenschaften"": {
+    ""ursprungsland"": ""China"",
+    ""lieferumfang"": 1,
+    ""artikelProVerkaufseinheit"": 1,
+    ""patchkabelMerkmale"": ""Halogenfrei"",
+    ""patchkabeltyp"": ""Kupferkabel"",
+    ""awg"": 26
+  }
+}
+```
+
+Ich habe die Eigenschaften in vier Kategorien unterteilt: `kabelEigenschaften`, `physischeEigenschaften`, `anschlussEigenschaften` und `sonstigeEigenschaften`, um die Informationen besser zu strukturieren. Die Einheiten für Länge, Breite, Gewicht und Impedanz sind weggelassen, da sie im Text bereits angegeben sind."," {
+  ""ProductSpecifications"": {
+    ""AWG"": ""26"",
+    ""ConnectionA"": ""RJ45"",
+    ""ConnectionB"": ""RJ45"",
+    ""ItemsPerPackage"": ""1 Stück"",
+    ""Width"": ""150 mm"",
+    ""Material"": ""Polyvinylchlorid (PVC)"",
+    ""Weight"": ""83.5 g"",
+    ""Impedance"": ""100 Ohm"",
+    ""ProductType"": ""Network Cable"",
+    ""CableType"": ""100 Ohm CAT6"",
+    ""ConnectionType"": ""Anschluss (M/M)"",
+    ""Color"": ""Blau"",
+    ""CableLayout"": ""ungekreuzt (straight)"",
+    ""Length"": ""2 m"",
+    ""IsolationMaterial"": ""Polyvinylchlorid"",
+    ""PatchCableFeatures"": ""Halogenfrei"",
+    ""CableTypeDescription"": ""Kupferkabel"",
+    ""Shielding"": ""S/FTP"",
+    ""ConnectorType"": ""Vergoldete Kontakte"",
+    ""Origin"": ""China"",
+    ""Application"": ""Network""
+  }
+}"
+207900,"
+Bitte extrahiere die wichtigsten technischen Produktspezifikationen aus folgendem Text und gib sie als JSON mit sinnvollen Attributnamen zurück.
+
+Produktdaten:
+Antriebsart: Riemenantrieb
+Audio-Anschlüsse: Cinch S/PDIF (1x)
+Breite: 360 Millimeter (mm) Millimeter
+Drehzahl: 45 Rpm
+Drehzahl: 33 Rpm
+Energieversorgung: Netzbetrieb
+Ersatznadeltyp: DSN-82
+Farbgruppe: Silber
+Genaue Farbbezeichnung: Silber
+Genaue Materialbezeichnung: Kunststoff
+Gewicht: 2.7 Kilogramm (kg) Kilogramm
+Höhe: 97 Millimeter (mm) Millimeter
+Lieferumfang: Handbuch
+Materialgruppe: Kunststoff
+Plattenspieler Ausstattung: Vorverstärker
+Plattenspieler Betriebsart: Vollautomatisch
+Tiefe: 357 Millimeter (mm) Millimeter
+Tonabnehmer: Moving Magnet
+Tonarm: Gerade
+","{
+  ""Antriebsart"": ""Riemenantrieb"",
+  ""Audio-Anschlüsse"": ""Cinch S/PDIF (1x)"",
+  ""Breite"": ""360 Millimeter"",
+  ""Drehzahl"": [""45 Rpm"", ""33 Rpm""],
+  ""Energieversorgung"": ""Netzbetrieb"",
+  ""Ersatznadeltyp"": ""DSN-82"",
+  ""Farbgruppe"": ""Silber"",
+  ""Genaue Farbbezeichnung"": ""Silber"",
+  ""Genaue Materialbezeichnung"": ""Kunststoff"",
+  ""Gewicht"": ""2.7 Kilogramm"",
+  ""Höhe"": ""97 Millimeter"",
+  ""Lieferumfang"": ""Handbuch"",
+  ""Materialgruppe"": ""Kunststoff"",
+  ""Plattenspieler Ausstattung"": ""Vorverstärker"",
+  ""Plattenspieler Betriebsart"": ""Vollautomatisch"",
+  ""Tiefe"": ""357 Millimeter"",
+  ""Tonabnehmer"": ""Moving Magnet"",
+  ""Tonarm"": ""Gerade""
+}","{
+  ""Antriebsart"": ""Riemenantrieb"",
+  ""Audio-Anschlüsse"": {
+    ""Cinch S/PDIF"": 1
+  },
+  ""Abmessungen"": {
+    ""Breite"": 360,
+    ""Höhe"": 97,
+    ""Tiefe"": 357,
+    ""Einheit"": ""Millimeter""
+  },
+  ""Drehzahlen"": [
+    45,
+    33
+  ],
+  ""Einheit Drehzahlen"": ""Rpm"",
+  ""Energieversorgung"": ""Netzbetrieb"",
+  ""Ersatznadeltyp"": ""DSN-82"",
+  ""Farbe"": ""Silber"",
+  ""Material"": ""Kunststoff"",
+  ""Gewicht"": {
+    ""Wert"": 2.7,
+    ""Einheit"": ""Kilogramm""
+  },
+  ""Lieferumfang"": [
+    ""Handbuch""
+  ],
+  ""Ausstattung"": [
+    ""Vorverstärker""
+  ],
+  ""Betriebsart"": ""Vollautomatisch"",
+  ""Tonabnehmer"": ""Moving Magnet"",
+  ""Tonarm"": ""Gerade""
+}","Hier sind die technischen Produktspezifikationen als JSON mit sinnvollen Attributnamen:
+```json
+{
+  ""Antrieb"": {
+    ""Art"": ""Riemenantrieb""
+  },
+  ""Audio"": {
+    ""Anschlüsse"": [""Cinch S/PDIF""],
+    ""Tonabnehmer"": ""Moving Magnet"",
+    ""Tonarm"": ""Gerade"",
+    ""Vorverstärker"": true
+  },
+  ""Abmessungen"": {
+    ""Breite"": 360,
+    ""Höhe"": 97,
+    ""Tiefe"": 357,
+    ""Einheit"": ""mm""
+  },
+  ""Gewicht"": {
+    ""Wert"": 2.7,
+    ""Einheit"": ""kg""
+  },
+  ""Energieversorgung"": {
+    ""Art"": ""Netzbetrieb""
+  },
+  ""Drehzahl"": {
+    ""Werte"": [45, 33],
+    ""Einheit"": ""Rpm""
+  },
+  ""Lieferumfang"": [""Handbuch""],
+  ""Material"": {
+    ""Gruppe"": ""Kunststoff"",
+    ""GenaueBezeichnung"": ""Kunststoff""
+  },
+  ""Farbe"": {
+    ""Gruppe"": ""Silber"",
+    ""GenaueBezeichnung"": ""Silber""
+  },
+  ""Ersatzteile"": {
+    ""Nadeltyp"": ""DSN-82""
+  },
+  ""Betriebsart"": ""Vollautomatisch""
+}
+```
+Ich habe die Attribute sinnvoll gruppiert und benannt, um die Lesbarkeit und Verständlichkeit zu verbessern. Lass mich wissen, wenn du noch Fragen hast oder Änderungen wünschst!"," {
+  ""DriveType"": ""Belt Drive"",
+  ""AudioConnectors"": [""Cinch S/PDIFF (1x)""],
+  ""Width"": ""360 mm"",
+  ""Speeds"": [""45 Rpm"", ""33 Rpm""],
+  ""PowerSupply"": ""AC Power"",
+  ""ReplacementStylusType"": ""DSN-82"",
+  ""ColorGroup"": ""Silver"",
+  ""ExactColor"": ""Silver"",
+  ""ExactMaterial"": ""Plastic"",
+  ""Weight"": ""2.7 kg"",
+  ""Height"": ""97 mm"",
+  ""IncludedAccessories"": ""Manual"",
+  ""MaterialGroup"": ""Plastic"",
+  ""TurntableFeatures"": [""Pre-amplifier"", ""Automatic Operation""],
+  ""ToneArmShape"": ""Straight"",
+  ""CartridgeType"": ""Moving Magnet"",
+  ""Depth"": ""357 mm""
+}"
+213020,"
+Bitte extrahiere die wichtigsten technischen Produktspezifikationen aus folgendem Text und gib sie als JSON mit sinnvollen Attributnamen zurück.
+
+Produktdaten:
+Artikel pro Verkaufseinheit: 1 Stück (Stk.) Stück
+Breite: 22 Zentimeter (cm) Zentimeter
+Druckerserie: C
+Druckfarbe: Schwarz
+Druckleistung bei 5% Deckung: 20000 Anzahl (x) Anzahl
+Farbbezeichnung: BK
+Gewicht: 1400 Gramm (g) Gramm
+Herstellerengagement: SBTi
+Höhe: 38 Zentimeter (cm) Zentimeter
+Kompatible Druckermodelle: C5750
+Kompatible Druckermodelle: C5650
+Passende Druckermarke: OKI
+Patronenart: Originalprodukt
+Tiefe: 15 Zentimeter (cm) Zentimeter
+Tonergrösse: Normal
+Tonertyp: Trommeleinheit
+Ursprungsland: Japan
+","{
+  ""ArtikelProVerkaufseinheit"": ""1 Stück"",
+  ""Breite"": ""22 Zentimeter"",
+  ""Druckerserie"": ""C"",
+  ""Druckfarbe"": ""Schwarz"",
+  ""DruckleistungBei5ProzentDeckung"": ""20000 Anzahl"",
+  ""Farbbezeichnung"": ""BK"",
+  ""Gewicht"": ""1400 Gramm"",
+  ""Herstellerengagement"": ""SBTi"",
+  ""Höhe"": ""38 Zentimeter"",
+  ""KompatibleDruckermodelle"": [""C5750"", ""C5650""],
+  ""PassendeDruckermarke"": ""OKI"",
+  ""Patronenart"": ""Originalprodukt"",
+  ""Tiefe"": ""15 Zentimeter"",
+  ""Tonergröße"": ""Normal"",
+  ""Tonertyp"": ""Trommeleinheit"",
+  ""Ursprungsland"": ""Japan""
+}","{
+  ""artikelProVerkaufseinheit"": 1,
+  ""breite"": 22,
+  ""druckerserie"": ""C"",
+  ""druckfarbe"": ""Schwarz"",
+  ""druckleistungBei5Prozent"": 20000,
+  ""farbbezeichnung"": ""BK"",
+  ""gewicht"": 1400,
+  ""herstellerengagement"": ""SBTi"",
+  ""hoehe"": 38,
+  ""kompatibleDruckermodelle"": [
+    ""C5750"",
+    ""C5650""
+  ],
+  ""passendeDruckermarke"": ""OKI"",
+  ""patronenart"": ""Originalprodukt"",
+  ""tiefe"": 15,
+  ""tonergroesse"": ""Normal"",
+  ""tonertyp"": ""Trommeleinheit"",
+  ""ursprungsland"": ""Japan""
+}","Hier sind die wichtigsten technischen Produktspezifikationen als JSON mit sinnvollen Attributnamen:
+
+```json
+{
+  ""produktDetails"": {
+    ""artikelProEinheit"": 1,
+    ""einheit"": ""Stück""
+  },
+  ""abmessungen"": {
+    ""breite"": 22,
+    ""hoehe"": 38,
+    ""tiefe"": 15,
+    ""einheit"": ""Zentimeter""
+  },
+  ""druckerEigenschaften"": {
+    ""druckerserie"": ""C"",
+    ""druckfarbe"": ""Schwarz"",
+    ""farbbezeichnung"": ""BK"",
+    ""druckleistung"": 20000,
+    ""einheit"": ""Anzahl"",
+    ""deckung"": 5,
+    ""einheitDeckung"": ""%""
+  },
+  ""kompatibilitaet"": {
+    ""passendeDruckermarke"": ""OKI"",
+    ""kompatibleDruckermodelle"": [""C5750"", ""C5650""]
+  },
+  ""tonerDetails"": {
+    ""patronenart"": ""Originalprodukt"",
+    ""tonertyp"": ""Trommeleinheit"",
+    ""tonerGroeße"": ""Normal""
+  },
+  ""herstellerInformationen"": {
+    ""herstellerEngagement"": ""SBTi"",
+    ""ursprungsland"": ""Japan""
+  },
+  ""gewicht"": {
+    ""wert"": 1400,
+    ""einheit"": ""Gramm""
+  }
+}
+```
+
+Hinweis: Ich habe die Eigenschaften in sinnvolle Kategorien unterteilt, um die Übersichtlichkeit zu verbessern. Wenn du eine andere Struktur bevorzugst, stehe ich gerne zur Verfügung, um Anpassungen vorzunehmen."," {
+  ""Artikel_pro_Verkaufseinheit"": ""1 Stück"",
+  ""Breite"": ""22 Zentimeter"",
+  ""Druckerserie"": ""C"",
+  ""Druckfarbe"": ""Schwarz"",
+  ""Druckleistung_bei_5_Deckung"": ""20000"",
+  ""Farbbezeichnung"": ""BK"",
+  ""Gewicht"": ""1400 Gramm"",
+  ""Herstellerengagement"": ""SBTi"",
+  ""Höhe"": ""38 Zentimeter"",
+  ""Kompatible_Druckermodelle"": [""C5750"", ""C5650""],
+  ""Passende_Druckermarke"": ""OKI"",
+  ""Patronenart"": ""Originalprodukt"",
+  ""Tiefe"": ""15 Zentimeter"",
+  ""Tonergrösse"": ""Normal"",
+  ""Tonertyp"": ""Trommeleinheit"",
+  ""Ursprungsland"": ""Japan""
+}"
